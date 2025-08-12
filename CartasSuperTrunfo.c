@@ -13,8 +13,7 @@ int main (){
     char codigo2[3];
     char nome2[50];
 
-    //anotação para facilitar na hora de codar: 
-%d para int, %f para float, %c para char e %s para char[]
+    //anotação para facilitar na hora de codar: %d para int, %f para float, %c para char e %s para char[]
 
     printf("-- Cadastro da primeira carta --");
 
@@ -28,7 +27,7 @@ int main (){
     scanf("%s", &nome1);
 
     printf("Populaçao da cidade: \n");
-    scanf("%d", população1)
+    scanf("%d", população1);
 
     return 0;
 
