@@ -3,11 +3,11 @@
 int main (){
     int população1, pontosT1;
     float area1, pib1;
-    char estado1, codigo1[3], nome1[50];
+    char estado1, codigo1[4], nome1[50];
 
     int população2, pontosT2;
     float area2, pib2;  
-    char estado2, codigo2[3], nome2[50];
+    char estado2, codigo2[4], nome2[50];
 
     //anotação para facilitar na hora de codar: %d para int, %f para float, %c para char e %s para char[]
 
@@ -20,7 +20,7 @@ int main (){
     scanf("%s", &codigo1);
 
     printf("Nome da cidade: \n");
-    scanf("%s", nome1);
+    scanf("%s", &nome1);
 
     printf("Populaçao da cidade: \n");
     scanf("%d", &população1);
@@ -33,6 +33,29 @@ int main (){
 
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosT1);
+
+    printf("-- Cadastro da segunda carta --\n");
+
+    printf("Estado: \n");
+    scanf(" %c", &estado2);
+
+    printf("Código da carta: \n");
+    scanf("%s", &codigo2);
+
+    printf("Nome da cidade: \n");
+    scanf("%s", nome2);
+
+    printf("Populaçao da cidade: \n");
+    scanf("%d", &população2);
+
+    printf("Área em km²: \n");
+    scanf("%f", &area2);
+
+    printf("PIB: \n");
+    scanf("%f", &pib2);
+
+    printf("Número de pontos turísticos: \n");
+    scanf("%d", &pontosT2);
 
     return 0;
 
