@@ -7,7 +7,7 @@ int main (){
 
     int população2, pontosT2;
     float area2, pib2;  
-    char estado2, 
+    char estado2, codigo1[3], nome1[50];
 
     //anotação para facilitar na hora de codar: %d para int, %f para float, %c para char e %s para char[]
 
