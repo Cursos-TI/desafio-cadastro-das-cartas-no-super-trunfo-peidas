@@ -64,12 +64,12 @@ int main (){
     printf(" -- Dados da primeira carta: -- \n"); 
     printf("Estado:  %c \nCódigo da carta: %s \nNome da Cidade: %s \n", estado1, codigo1, nome1);
     printf("População da Cidade: %d \nÁrea da Cidade em km²: %f \nPIB da Cidade: %f \n", população1, area1, pib1);
-    printf("Número de Pontos Turísticos da cidade %d \n", pontosT1);
+    printf("Número de Pontos Turísticos da cidade: %d \n", pontosT1);
 
     printf(" -- Dados da segunda carta: -- \n"); 
     printf("Estado:  %c \nCódigo da carta: %s \nNome da Cidade: %s \n", estado2, codigo2, nome2);
     printf("População da Cidade: %d \nÁrea da Cidade em km²: %f \nPIB da Cidade: %f \n", população2, area2, pib2);
-    printf("Número de Pontos Turísticos da cidade %d \n", pontosT2);
+    printf("Número de Pontos Turísticos da cidade: %d \n", pontosT2);
 
     return 0;
 
